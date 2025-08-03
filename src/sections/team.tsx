@@ -1,5 +1,3 @@
-import ryad from '../../public/rayad.jpg'
-import zaki from '../../public/zaki.jpg'
 import TeamCard from "@/components/team-card";
 
 export default function Team() {
@@ -9,8 +7,8 @@ export default function Team() {
                 <h1 className="text-3xl font-bold">Nos Docteurs</h1>
             </div>
             <div className="flex flex-col h-full sm:flex-row justify-around gap-3">
-                <TeamCard image={zaki} name="Zaki" description="Because they are clear and simple to read on a white background, simple sans-serif fonts are a popular option for white websites." />
-                <TeamCard image={ryad} name="Ryad" description="Because they are clear and simple to read on a white background, simple sans-serif fonts are a popular option for white websites." />
+                <TeamCard image={"/zaki.jpg"} name="Zaki" description="Because they are clear and simple to read on a white background, simple sans-serif fonts are a popular option for white websites." />
+                <TeamCard image={'/rayad.jpg'} name="Ryad" description="Because they are clear and simple to read on a white background, simple sans-serif fonts are a popular option for white websites." />
             </div>
         </section>
     );
