@@ -14,7 +14,7 @@ export default function Service() {
             <div className="flex flex-col gap-3 justify-evenly h-11/12">
                 <Servicing title="Consultations et Vaccinations" description="Examens de santé complets, diagnostics, traitements médicaux et programmes de vaccination personnalisés pour protéger vos animaux contre les maladies courantes." icon={consultationIcon} image="/vetcare1.jpg" left={true} iconalt="" imagealt="Veterinarian in scrubs examining yellow Labrador retriever dog during checkup at animal clinic with stethoscope and medical chart"/>
                 <Servicing title="Chirurgie et Urgence" description="Interventions chirurgicales programmées et soins d'urgence 24h/7j pour répondre rapidement aux besoins critiques de vos compagnons." icon={emergencyIcon} image="/veturg.jpg" left={false} iconalt="" imagealt=""/>
-                <Servicing title="Gardinage" description="Services de pension et hébergement temporaire dans un environnement sécurisé et bienveillant pendant vos absences ou déplacements." icon={gardinageIcon} image={'/petsitting.jpg'} left={true} iconalt="" imagealt=""/>
+                <Servicing title="Gardinage" description="Services de pension et hébergement temporaire dans un environnement sécurisé et bienveillant pendant vos absences ou déplacements." icon={gardinageIcon} image={'/petsitting.jpg'} left={true} iconalt="" imagealt="Professional dog walker with four different breed dogs on leashes in urban park - Siberian Husky, Great Dane mix, Vizsla, and Australian Shepherd sitting on brick pathway"/>
             </div>
         </section>
     );
